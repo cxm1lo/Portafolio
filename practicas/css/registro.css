@@ -1,0 +1,138 @@
+*{
+    margin: 5px;
+    padding: 5px;
+}
+body{
+    background: white;
+    font-family: arial;
+    font-size: 16px;;
+}
+.contenedor{
+    width: 1220px;
+    margin: 15px auto;
+    overflow: hidden;
+}
+header{
+    background: #ed7d31;
+    border: 2px solid #d77330;
+}
+header nav{
+    width: 100%;
+    text-align: right;
+}
+header nav ul{
+    width: 99%;
+    overflow: hidden;
+    list-style: none;
+}
+header nav ul li{
+    float: right;
+}
+header nav ul li a{
+    text-decoration: none;
+    display: inline;
+    padding: 20px 70px;
+    background: #5b9bd5;
+    border: 2px solid #62809e;
+    color: white;
+    justify-content: center;
+    margin: 0px 5px;  
+}
+header nav ul li a:hover{
+    background: #62809e;
+    color: black;
+}
+
+.inicio{
+    width: 1200px;
+    height: 500px;
+    background: #5b9bd5;
+    border: 2px solid #62809e;
+    margin: 15px auto;
+    overflow: hidden;
+    display: flex;
+}
+.inicio nav{
+        width: 98%;
+        overflow: hidden;
+        text-align: center;
+}
+.inicio nav div{
+    width: 550px;
+    height: 415px;
+    overflow: hidden;
+    list-style: none;
+    background: #ed7d31;
+    border: 2px solid #d77330;
+    display: inline-block;
+    border: 2px solid white;
+    
+    margin-top: 20px;
+}
+.inicio nav div form{
+    width: 100%;
+    display: flex;
+    text-align: left;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.inicio nav div form h1{
+    width: 500px;
+    margin-top: 5px;
+    text-align: center;
+}
+.inicio nav div form label {
+    text-align: left;
+    width: 160px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.inicio nav div form select{
+    background: #5b9bd5; 
+    color: rgb(77, 77, 77);
+    border: 2px solid #62809e; 
+    width: 264px; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    font-size: 14px; 
+}
+.inicio nav div form input[type="email"],
+.inicio nav div form input[type="text"]{
+    display: flex;
+    text-align: left;
+    background: #5b9bd5;
+    border: 2px solid #62809e;
+    width: 250px;
+    color: white;
+}
+.inicio nav div form input[type="submit"]{
+    width: 200px;
+    height: 40px;
+    background: #5b9bd5;
+    border: 2px solid #62809e;
+    font-size: 20px;
+    color: white;
+    margin-left: 150px;
+    margin-right: 250px;
+    margin-top: 15px;
+}
+.inicio nav div form input[type="submit"]:hover{
+    background: #62809e;
+    color: black;
+}
+.a {
+    width: 1200px;
+    height: 30px;
+    background: #5b9bd5;
+    border: 2px solid #62809e;
+    margin: 15px auto;
+    overflow: hidden;
+    display: flex;
+}
+.a nav{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    color : white;
+}
