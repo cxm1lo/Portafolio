@@ -642,7 +642,7 @@ body{
         left: 5%;
         z-index: 100;
     }
-    .panel ul li{
+    .panel{
         width: 90%;
     }
     .panel h2{
