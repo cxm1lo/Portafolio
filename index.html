@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,8 +12,7 @@
     <title>cxmilo portafolio</title>
 </head>
 <body>
-    <header>
-        <nav class="nav">
+    <nav class="nav">
             <div class="logo"><h1>Camilo <b>Lozano</b></h1></div>
             <input type="checkbox" id="check">
             <label for="check" class="checkbtn">
@@ -25,18 +24,19 @@
                 <li><a href="#proyectos">Proyectos</a></li>
                 <li><a href="#habilidades">Habilidades</a></li>
             </ul>
-        </nav>
-        <div class="inicio">
+    </nav>
+    <div class="inicio">
+        <div class="pre">
             <h1>Hola, soy <b>Camilo</b></h1>
             <h3>Desarrollador Web Full Stack en Formación</h3>
             <p>Actual estudiante en desarrollo de software abierto a nuevos aprendizajes y retos.</p>
+        </div>
                 <div class="links">
                     <a href="https://wa.me/+573508018667" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
                     <a href="https://github.com/cxm1lo" target="_blank"><i class="fa-brands fa-github"></i></a>
-                    <a href="" target="_blank"><i class="fa-solid fa-file"></i></a>
+                    <a href="https://drive.google.com/file/d/189GYivWxcQm4kxApXu_0mwAHSfeTgeok/view?usp=drive_link" target="_blank"><i class="fa-solid fa-file"></i></a>
                 </div>
-        </div>
-    </header>
+    </div>
     <section id="sobre" class="sobre">
         <div class="texto">
             <h1><i class="fa-solid fa-user"></i> Sobre mí</h1>
@@ -49,8 +49,8 @@
             Mi objetivo es seguir creciendo tanto como profesional y personalmente para poder participar en proyectos en los que pueda aportar valor.
             </p>
         </div>
-        <div>
-            <img src="img/lenguajes.png" alt="">
+        <div class="img">
+            <img src="img/lenguajes.png" alt="" width="200px">
         </div>
     </section>
     <section class="educacion" id="educacion">
@@ -90,11 +90,13 @@
         </div>
     </section>
     <section id="proyectos" class="proyectos">
-        <h1><i class="fa-solid fa-code"></i> Proyectos</h1>
+        <div class="titu">
+            <h1><i class="fa-solid fa-code"></i> Proyectos</h1>
+        </div>
         <div class="paneles">
             <div class="panel">
                 <div class="imagen">
-                    <img src="img/AnimalBeats.png" alt="AnimalBeats">
+                    <img src="img/AnimalBeats.png" alt="AnimalBeats" width="200px">
                 </div>
                 <h2>AnimalBeats</h2>
                 <p>"AnimalBeats" es un sistema  administrativo para la Industria de la Salud Animal el cual ayudará a mejorar los procesos administrativos y el control de las mascotas de las veterinarias.
@@ -106,13 +108,13 @@
                     <i class="fa-brands fa-js"></i>
                 </div>
                 <ul>
-                    <li><a href="animalbeats.netlify.app" target="_blank">Demo</a></li>
+                    <li><a href="https://animalbeats.netlify.app" target="_blank">Demo</a></li>
                     <li><a href="https://github.com/cxm1lo/AnimalBeats" target="_blank">Código</a></li>
                 </ul>
             </div>
             <div class="panel">
                 <div class="imagen">
-                    <img src="img/portafolio.png" alt="portafolio">
+                    <img src="img/portafolio.png" alt="portafolio" width="200px">
                 </div>
                 <h2>Portafolio</h2>
                 <p>Mi portafolio web personal, donde se pueden encontrar algunos de mis proyectos, habilidades y un poco más de información sobre mi.</p>
@@ -129,7 +131,9 @@
         </div>
     </section>
     <section id="habilidades" class="habilidades">
-        <h1><i class="fa-solid fa-laptop"></i>Habilidades</h1>
+        <div class="tit">
+            <h1><i class="fa-solid fa-laptop"></i>Habilidades</h1>
+        </div>
         <div class="skills">
             <ul>
                 <li><i class="fa-brands fa-html5"></i><p>HTML</p></li>
@@ -145,10 +149,13 @@
     </section>
     <section class="contacto">
         <form action="https://formsubmit.co/edwardlozanop@gmail.com" method="POST">
+            
+            <div class="cuadro">
+                <div class="inputs">
 
-            <h1><i class="fa-solid fa-phone"></i>Contactame</h1>
-
-            <div class="input">
+                    <div class="titul">
+                        <h1><i class="fa-solid fa-phone"></i>Contactame</h1>
+                    </div>
 
                 <label for="name">Nombre</label>
                 <input class="formu" type="text" id="name" name="name" placeholder="Escriba su nombre" required>
@@ -161,12 +168,16 @@
 
                 <label for="mensaje">Mensaje</label>
                 <textarea id="mensaje" name="mensaje" cols="30" rows="5"  placeholder="Mensaje opcional"></textarea>
-            
-                <input class="btn" type="submit" value="Enviar">
+                
+                <div class="boton">
+                    <input class="btn" type="submit" value="Enviar">
+                </div>
                 <input type="hidden" name="_text" value="https://camilo-lozano.netlify.app">
                 <input type="hidden" name="_captcha" value="false">
+            
             </div>
 
+        </div>
             
         </form>
 
