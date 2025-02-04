@@ -657,8 +657,12 @@ body{
     .titul{
         width: 70%;
     }
-    .texto h1, .titulo h1, .titu h1, .titul h1, .tit h1{
+    .texto h1, .titulo h1, .titu h1, .tit h1{
         width: 60%;
+        font-size: 15px;
+    }
+    .titul h1{
+        width: 90%;
         font-size: 15px;
     }
     .skills{
