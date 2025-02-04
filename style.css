@@ -651,6 +651,9 @@ body{
     .panel h3{
         font-size: 10px;
     }
+    .panel p{
+        font-size: 8px;
+    }
     .titul{
         width: 70%;
     }
