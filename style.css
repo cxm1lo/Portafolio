@@ -642,6 +642,15 @@ body{
         left: 5%;
         z-index: 100;
     }
+    .panel ul li{
+        width: 90%;
+    }
+    .panel h2{
+        font-size: 10px;
+    }
+    .panel h3{
+        font-size: 8px;
+    }
     .titul{
         width: 70%;
     }
