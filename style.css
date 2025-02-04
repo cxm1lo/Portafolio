@@ -664,6 +664,8 @@ body{
     .titul h1{
         width: 100%;
         font-size: 15px;
+        justify-content: center;
+        align-items: center;
     }
     .skills{
         margin: 5px;
